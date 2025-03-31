@@ -14,7 +14,7 @@ monthlyexpensestext.textContent = `Monthly Expenses: $`+ monthlyexpenses
 if (monthlyincome < monthlyexpenses) {
     alert("Warning: Spending exceeds income!") // if you spend more than you make an alert appears 
 }
-    
+
 let button = document.getElementById("calculateBudget")
     
 button.addEventListener("click", function(){
